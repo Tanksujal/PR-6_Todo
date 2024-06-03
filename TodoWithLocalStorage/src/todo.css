@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    outline: none;
+}
+.box{
+    border: 2px solid #afd0a6;
+    border-radius: 8px;
+    padding: 20px;
+}
+.box h1{
+    text-align: center;
+    font-size: 24px;
+}
+.box form{
+display: flex;
+flex-direction: column;
+
+}
+.box input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #afd0a6;
+    background-color: #e2eede;
+    width: 90%;
+    margin-top: 8px;
+}
+.box .date{
+    width: 60%;
+}
+.box .input-task button{
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 8px;
+
+}
+::placeholder{
+    color: #000;
+}
+.view-task{
+    margin-top: 20px;
+}
+.view-box{
+    border: 2px solid #afd0a6;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #e2eede;
+}
+.view-box span{
+    color: #97b4bf;
+}
